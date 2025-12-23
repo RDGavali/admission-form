@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admission Form</title>
+</head>
+<body>
+
+<center>
+    <h1>ADMISSION FORM</h1>
+    <hr width="60%">
+    <h2>JSPM RAJARSHI SHAHU COLLEGE OF ENGINEERING</h2>
+    <h3>Tathawade, Pune</h3>
+
+    <a href="https://www.jspmrscoe.edu.in/">
+        CLICK HERE TO VISIT OFFICIAL COLLEGE PORTAL
+    </a>
+
+    <br><br>
+
+    <img src="https://www.jspmrscoe.edu.in/Images/PrincipalMessage/CorporateOffice.png"
+         alt="College Image"
+         width="300">
+</center>
+
+<br><hr><br>
+
+<form>
+
+<fieldset>
+    <legend><b>STUDENT DETAILS</b></legend>
+
+    <table cellpadding="10">
+        <tr>
+            <td><b>Name of Student</b></td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td><b>Registration Number</b></td>
+            <td>:</td>
+            <td><input type="text" pattern="[0-9]{10}" maxlength="10" required></td>
+        </tr>
+
+        <tr>
+            <td><b>Date of Birth</b></td>
+            <td>:</td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td><b>Date of Admission</b></td>
+            <td>:</td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td><b>Mobile Number</b></td>
+            <td>:</td>
+            <td><input type="tel" pattern="[0-9]{10}" maxlength="10"></td>
+        </tr>
+
+        <tr>
+            <td><b>Email</b></td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td><b>Gender</b></td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td><b> which branch to choose</b></td>
+            <td>:</td>
+            <td><input type="checkbox"  >computer science</td>
+            <td><input type="checkbox" >information technology</td>
+        </tr>
+    </table>
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend><b>ACADEMIC DETAILS</b></legend>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Standard</th>
+            <th>Marks / Percentile</th>
+        </tr>
+
+        <tr>
+            <td>10th</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>12th</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>JEE Main Percentile</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend><b>UPLOAD JEE MAINS MARKSHEET</b></legend>
+    <input type="file">
+</fieldset>
+
+<br>
+
+<center>
+    <input type="submit" value="SUBMIT FORM">
+</center>
+
+</form>
+
+</body>
+</html>
